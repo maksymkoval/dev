@@ -1,0 +1,268 @@
+header,
+article {
+  margin: auto;
+  width: 100vw;
+}
+.slick-list {
+  margin: auto;
+}
+.slick-next {
+  right: -10px;
+}
+.slick-prev {
+  left: -10px;
+}
+body {
+  box-sizing: border-box;
+}
+.topl {
+  background-color: #f8f9fa!important;
+  width: 100vw;
+  min-height: 50px;
+}
+.topline {
+  width: 90vw;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.phone-mail {
+  position: absolute;
+  right: 0;
+  height: 60px;
+}
+.topul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.topli {
+  float: left;
+}
+.topli a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 8px 8px;
+  text-decoration: none;
+}
+.bg-light {
+  width: 90vw;
+  margin: auto;
+  background-color: #ffffff!important;
+}
+#quotebutton {
+  border-radius: 50px;
+  padding-left: 20px ;
+  padding-right: 20px ;
+  font-size: 13px !important ;
+  color: #2355DA ;
+  border: 2px solid #2355DA !important;
+  line-height: 3.2em;
+}
+#quotebutton:hover {
+  color: white;
+  background-color: #2355da;
+}
+#callbutton {
+  border-radius: 50px;
+  padding-left: 20px ;
+  padding-right: 20px ;
+  font-size: 13px !important ;
+  color: #4DE55C ;
+  border: 2px solid #4DE55C !important ;
+  line-height: 3.2em;
+}
+#callbutton:hover {
+  background-color: #4DE55C ;
+  color: white;
+}
+.conceptualize {
+  box-sizing: border-box;
+  margin-bottom: 0px !important;
+}
+.h1phone {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  border-top: 1px solid grey;
+  padding-top: 30px;
+}
+.phone img {
+  height: auto;
+  max-width: 100%;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+.cont1 {
+  width: 100vw;
+  background-color: #f8f9fa!important;
+  margin: auto;
+}
+.welovewhatwedo {
+  margin: auto;
+  width: 90vw;
+  text-align: center;
+  padding: 50px 0 50px 0;
+}
+.welovewhatwedo p .homelink {
+  color: #2355da;
+}
+.welovewhatwedo .aboutusbtn {
+  font-family: "Montserrat", Sans-serif;
+  fill: #FFF;
+  color: #FFF;
+  background-color: #3425F4;
+  border-radius: 50px 50px 50px 50px;
+  padding: 15px 50px 15px 50px;
+  text-decoration: none;
+}
+.cont2 {
+  background-image: url(https://www.sparkleappz.com/wp-content/uploads/2019/12/blue_img-2.png);
+  width: 100vw;
+  margin: auto;
+}
+.cont2 .help {
+  padding: 100px 30px;
+  text-align: center;
+  color: #ffffff;
+}
+.cont2 .help h2 {
+  font-family: "Archivo Black", Sans-serif;
+  font-size: 3em;
+  font-weight: 700;
+}
+.cont2 strong {
+  font-weight: 500;
+}
+.cont3 {
+  text-align: center;
+  color: #000;
+  padding-top: 40px;
+  margin: auto;
+}
+.cont3 h1 {
+  font-family: "Archivo Black", Sans-serif;
+  font-size: 3em;
+  font-weight: 700;
+}
+.cont3 .services {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+  grid-row-gap: 30px;
+}
+.cont3 .services .service {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+.cont3 .services .service img {
+  width: 50px;
+  height: 50px;
+}
+.cont3 .services .service .textservices {
+  text-align: initial;
+  color: #545454;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 2em;
+  letter-spacing: 0;
+}
+.cont3 .services .service .smallings {
+  text-align: end;
+}
+.cont4 {
+  margin: auto;
+  width: 100vw;
+  background-color: #f8f9fa!important;
+  height: 300px;
+}
+.cont4 h2 {
+  text-align: center;
+}
+.cont4 .autoplay {
+  width: 95vw;
+  margin: auto;
+}
+.cont5 {
+  width: 100vw;
+  height: 100%;
+  margin: auto;
+}
+.cont5 h2 {
+  text-align: center;
+  font-family: "Archivo Black", Sans-serif;
+  font-size: 3em;
+  font-weight: 700;
+}
+.cont5 .portfolio {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 5px;
+}
+.cont5 .portfolio img {
+  width: 98%;
+}
+.portf1 {
+  position: relative;
+}
+.portf1 .txtp {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  opacity: 0.6;
+  display: none;
+}
+.portf1 .txtp p {
+  margin: 0;
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  margin-top: 8%;
+  border: 1px solid #888;
+  width: 50%;
+  height: 50%;
+}
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 59px;
+  font-weight: bold;
+  text-align: right;
+  position: absolute;
+  top: -40%;
+  right: -25%;
+  color: white;
+}
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+@media (max-width: 800px) {
+  .cont3 .services {
+    grid-template-columns: 1fr;
+  }
+  .modal-content {
+    width: 100%;
+    height: 40%;
+  }
+}
